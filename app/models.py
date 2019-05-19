@@ -13,7 +13,7 @@ class Article:
 
 class Source:
     '''
-    Movie class to define Movie Objects
+    source class to define source Objects
     '''
 
     def __init__(self, name, description, url, language, country):
