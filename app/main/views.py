@@ -11,3 +11,12 @@ def index():
     sources = get_sources()
     articles = get_articles('kenya')
     title = "news,gossips and everything nice!"
+
+    return render_template('index.html', title = title, sources = sources, articles = articles)
+
+@main.route('/news/<int:news_id>')
+def news(news_id):
+    '''
+    View news page function that returns page with news
+    '''
+    return render_template('news.html', id = news_id)
