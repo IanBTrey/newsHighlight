@@ -1,0 +1,105 @@
+#trial {
+background-color: black;
+}
+#card {
+  border: 2px dashed #adff2f;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#source {
+  margin: 10px;
+  padding: 10px;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+
+}
+#link {
+color: 	#adff2f;
+text-decoration: none;
+/* padding-bottom: 10px;
+padding-top: 10px; */
+}
+#fonts{
+  font-family: 'Baloo Bhai', sans-serif;
+  text-align: center;
+  font-size: 8rem;
+  border: 2px dashed #adff2f;
+  padding-bottom: 10%;
+}
+.home {
+background-image: url('https://images.pexels.com/photos/860379/pexels-photo-860379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+text-align: center;
+font-size: 9rem;
+font-family: 'Cinzel Decorative', cursive;
+
+}
+#heading {
+font-family: 'Righteous' ,cursive;
+font-style: 4rem;
+color: white;
+background-color: rgba(0,0,0,0.4);
+
+}
+#text {
+display: inline-block;
+
+}
+marquee, .text-muted{
+color: ##ff00e6;
+}
+#hot{
+  padding-bottom: 10%;
+  margin-top: 3%;
+}
+.logo{
+  width: 70px;
+  height: 70px;
+  margin-left: 350px;
+}
+h3{
+  font-family: 'Righteous', cursive;
+  text-decoration: underline;
+  text-decoration-color: ##ff00e6;
+  text-decoration-style: solid;
+}
+#location{
+  font-family: 'Kaushan Script', cursive;
+  color: ##ff00e6;
+  font-size: x-large;
+  text-align: right;
+}
+/* trials */
+*[data-animation="ripple"] {
+	height: 100%;
+	width: 100%;
+	display: block;
+	outline: none;
+	padding: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	background-image: linear-gradient(to right bottom, #8e6242, #a95d3c, #c6513f, #e43c4d, #ff0066);
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 14px;
+	font-family: roboto, helvetica;
+	font-weight: 200;
+	letter-spacing: 1px;
+	text-decoration: none;
+	box-shadow: 0 5px 3px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+  /*border-radius: 50px;*/
+	-webkit-tap-highlight-color: transparent;
+	border-radius: 5px;
+}
+
+*[data-animation="ripple"]:focus {
+	outline: none;
+}
+
+*[data-animation="ripple"]::selection {
+	background: transparent;
+	pointer-events: none;
+}
