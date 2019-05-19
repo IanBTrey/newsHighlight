@@ -52,3 +52,29 @@ def get_source(id):
 
 
     return movie_object
+
+
+def process_results(sources_list):
+    '''
+    Transforms the source results into a list of objects
+
+    Args:
+        sources_list = a list of dictionaries that contain article details
+
+    Returns:
+        sources_results
+    '''
+
+    sources_results = []
+    for source in sources_list:
+        name = source.get('name')
+        description = source.get('description')
+        url = source.get('url')
+        language = source.get('language')
+        country = source.get('country')
+
+        if url:
+            source_object = Source(name, description, url, language, country)
+            sources_results.append(source_object)
+
+    return sources_results
