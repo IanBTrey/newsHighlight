@@ -20,3 +20,15 @@ def news(news_id):
     View news page function that returns page with news
     '''
     return render_template('news.html', id = news_id)
+
+
+@main.route('/source/<int:id>')
+def source(id):
+
+    '''
+    View source page function that returns the source details page and its data
+    '''
+    source = get_source(id)
+    name = f'{source.name}'
+
+    return render_template('news.html',name = name, source = source)
