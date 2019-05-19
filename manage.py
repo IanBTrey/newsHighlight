@@ -1,8 +1,13 @@
+# Creating app instance
+app = create_app('development')
 
+manager = Manager(app)
+manager.add_command('server',Server)
+@manager.command
 
 def test():
     '''
-    Run unit tests(this feature is the coolest bana)
+    function to run unit tests
     '''
     import unittest
     tests = unittest.TestLoader().discover('tests')
