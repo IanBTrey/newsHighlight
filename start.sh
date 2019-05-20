@@ -1,3 +1,3 @@
-export NEWS_API_KEY='be580606e8068d3837cf54dd39de11c8'
+export NEWS_API_KEY='d4a4a76fbc044434958ab3e585f812ac'
 export SECRET_KEY='kirui-yegon006'
-python3.6 manage.py server
+python3.6 manage.py runserver

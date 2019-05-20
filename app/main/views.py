@@ -10,7 +10,7 @@ def index():
     View root page that returns the index page and its data
     '''
     sources = get_sources()
-    articles = get_articles('kenya')
+    articles = get_articles('trends')
     title = "news,gossips and everything nice!"
 
     return render_template('index.html', title = title, sources = sources, articles = articles)
