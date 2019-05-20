@@ -47,7 +47,7 @@ display: inline-block;
 
 }
 marquee, .text-muted{
-color: green;
+color: rgb(0, 70, 128);
 }
 #hot{
   padding-bottom: 10%;
