@@ -2,7 +2,6 @@
 background-color: black;
 }
 #card {
-  border: 2px dashed #adff2f;
   padding: 10px;
   margin-bottom: 10px;
 }
@@ -48,7 +47,7 @@ display: inline-block;
 
 }
 marquee, .text-muted{
-color: ##008000;
+color: ##31B404;
 }
 #hot{
   padding-bottom: 10%;
@@ -62,12 +61,12 @@ color: ##008000;
 h3{
   font-family: 'Righteous', cursive;
   text-decoration: underline;
-  text-decoration-color: ##ff00e6;
+  text-decoration-color: ##31B404;
   text-decoration-style: solid;
 }
 #location{
   font-family: 'Kaushan Script', cursive;
-  color: ##ff00e6;
+  color: ##31B404;
   font-size: x-large;
   text-align: right;
 }
@@ -80,7 +79,7 @@ h3{
 	padding: 20px;
 	color: #fff;
 	text-transform: uppercase;
-	background-image: linear-gradient(to right bottom, #8e6242, #a95d3c, #c6513f, #e43c4d, #ff0066);
+	background-image: linear-gradient(to right bottom, #3fa504, #4ea93c, #4ac63f, #58e43c, #15ff00);
 	box-sizing: border-box;
 	text-align: center;
 	line-height: 14px;
