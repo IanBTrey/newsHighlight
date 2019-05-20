@@ -39,7 +39,7 @@ font-family: 'Cinzel Decorative', cursive;
 font-family: 'Righteous' ,cursive;
 font-style: 4rem;
 color: green;
-background-color: rgba(0,0,0,0.4);
+background-color: rgba(54, 161, 11, 0.4);
 
 }
 #text {
@@ -77,7 +77,7 @@ h3{
 	display: block;
 	outline: none;
 	padding: 20px;
-	color: #fff;
+	color: rgb(40, 160, 9);
 	text-transform: uppercase;
 	background-image: linear-gradient(to right bottom, #3fa504, #4ea93c, #4ac63f, #58e43c, #15ff00);
 	box-sizing: border-box;
@@ -87,7 +87,7 @@ h3{
 	font-weight: 200;
 	letter-spacing: 1px;
 	text-decoration: none;
-	box-shadow: 0 5px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 5px 3px rgba(34, 168, 16, 0.3);
 	cursor: pointer;
   /*border-radius: 50px;*/
 	-webkit-tap-highlight-color: transparent;
