@@ -39,7 +39,7 @@ font-family: 'Cinzel Decorative', cursive;
 #heading {
 font-family: 'Righteous' ,cursive;
 font-style: 4rem;
-color: white;
+color: green;
 background-color: rgba(0,0,0,0.4);
 
 }
@@ -48,7 +48,7 @@ display: inline-block;
 
 }
 marquee, .text-muted{
-color: ##ff00e6;
+color: ##008000;
 }
 #hot{
   padding-bottom: 10%;
